@@ -12,6 +12,7 @@ services:
     depends_on:
       - database
   database:
+    # m1用
     platform: 'linux/amd64'
     image: mysql:8.0.14
     environment:
