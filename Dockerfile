@@ -26,3 +26,5 @@ RUN \
   bundle install && \
   rm -rf ~/.gem
 COPY . $APP_ROOT
+
+CMD ["rails", "server", "-b", "0.0.0.0"]
